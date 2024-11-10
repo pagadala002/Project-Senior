@@ -1,0 +1,28 @@
+.sidebar {
+    width: 250px;
+    background-color: #6b4a9b;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar-profile {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-nav li {
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .sidebar-nav li:hover {
+    text-decoration: underline;
+  }
+  
+  
