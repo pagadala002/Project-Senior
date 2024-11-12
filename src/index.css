@@ -1,6 +1,14 @@
 /* index.css */
 
+/* index.css */
+
 body {
+    background-image: url('/images/signup-interior.jpg'); /* Path to your background image */
+    background-size: cover;  /* Ensures the image covers the entire page */
+    background-position: center center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    position: relative; /* Ensures that the overlay is positioned correctly */
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Add your preferred font */
 }
+
