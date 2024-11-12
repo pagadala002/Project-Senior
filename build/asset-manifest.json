@@ -20,3 +20,14 @@
     "static/js/main.375b77bf.chunk.js"
   ]
 }
+    "main.css": "/Project-Senior/static/css/main.83d745ad.css",
+    "main.js": "/Project-Senior/static/js/main.61555be1.js",
+    "index.html": "/Project-Senior/index.html",
+    "main.83d745ad.css.map": "/Project-Senior/static/css/main.83d745ad.css.map",
+    "main.61555be1.js.map": "/Project-Senior/static/js/main.61555be1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83d745ad.css",
+    "static/js/main.61555be1.js"
+  ]
+}
