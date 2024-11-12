@@ -59,58 +59,56 @@ function HomePage() {
           <div className="property-grid">
             {/* Property Cards */}
             <div className="property-card">
-              <img src="/images/image1.jpg" alt="Luxury Villa in Erie" />
+              <img src={`${process.env.PUBLIC_URL}/images/image1.jpg`} alt="Luxury Villa in Erie" />
               <div className="property-info">
                 <h3>Luxury Villa in Erie</h3>
                 <p>5 Beds, 1 Bath · $807,804.58</p>
               </div>
             </div>
             <div className="property-card">
-              <img src="/images/image2.jpg" alt="Modern Apartment in Philadelphia" />
+              <img src={`${process.env.PUBLIC_URL}/images/image2.jpg`} alt="Modern Apartment in Philadelphia" />
               <div className="property-info">
                 <h3>Modern Apartment in Philadelphia</h3>
                 <p>3 Beds, 2 Baths · $751,171.31</p>
               </div>
             </div>
             <div className="property-card">
-              <img src="/images/image3.jpg" alt="Beach House in Harrisburg" />
+              <img src={`${process.env.PUBLIC_URL}/images/image3.jpg`} alt="Beach House in Harrisburg" />
               <div className="property-info">
                 <h3>Beach House in Harrisburg</h3>
                 <p>2 Beds, 1 Bath · $391,899.17</p>
               </div>
             </div>
             <div className="property-card">
-              <img src="/images/image4.jpg" alt="Suburban Home in Chester" />
+              <img src={`${process.env.PUBLIC_URL}/images/image4.jpg`} alt="Suburban Home in Chester" />
               <div className="property-info">
                 <h3>Suburban Home in Chester</h3>
                 <p>6 Beds, 1 Bath · $924,923.46</p>
               </div>
             </div>
             <div className="property-card">
-              <img src="/images/image5.jpg" alt="Penthouse in Cleveland" />
+              <img src={`${process.env.PUBLIC_URL}/images/image5.jpg`} alt="Penthouse in Cleveland" />
               <div className="property-info">
                 <h3>Penthouse in Cleveland</h3>
                 <p>4 Beds, 3 Baths · $1,200,000.00</p>
               </div>
             </div>
             <div className="property-card">
-              <img src="/images/image6.jpg" alt="Mountain Cabin in Scranton" />
+              <img src={`${process.env.PUBLIC_URL}/images/image6.jpg`} alt="Mountain Cabin in Scranton" />
               <div className="property-info">
                 <h3>Mountain Cabin in Scranton</h3>
                 <p>2 Beds, 1 Bath · $400,000.00</p>
               </div>
             </div>
-            {/* New Property Card for image8.avif */}
             <div className="property-card">
-              <img src="/images/image8.avif" alt="Countryside House in Allentown" />
+              <img src={`${process.env.PUBLIC_URL}/images/image8.avif`} alt="Countryside House in Allentown" />
               <div className="property-info">
                 <h3>Countryside House in Allentown</h3>
                 <p>3 Beds, 2 Baths · $600,000.00</p>
               </div>
             </div>
-            {/* New Property Card for image9.jpg */}
             <div className="property-card">
-              <img src="/images/image9.jpg" alt="Lakefront Villa in Springfield" />
+              <img src={`${process.env.PUBLIC_URL}/images/image9.jpg`} alt="Lakefront Villa in Springfield" />
               <div className="property-info">
                 <h3>Lakefront Villa in Springfield</h3>
                 <p>5 Beds, 4 Baths · $950,000.00</p>
@@ -120,9 +118,9 @@ function HomePage() {
 
           {/* Partners Section */}
           <div className="partners">
-            <img src="/logos/bloomberg.jpg" alt="Bloomberg" />
-            <img src="/logos/businessins.jpg" alt="Business Insider" />
-            <img src="/logos/yahooofinance.jpg" alt="Yahoo Finance" />
+            <img src={`${process.env.PUBLIC_URL}/logos/bloomberg.jpg`} alt="Bloomberg" />
+            <img src={`${process.env.PUBLIC_URL}/logos/businessins.jpg`} alt="Business Insider" />
+            <img src={`${process.env.PUBLIC_URL}/logos/yahooofinance.jpg`} alt="Yahoo Finance" />
           </div>
 
           {/* Footer Description */}

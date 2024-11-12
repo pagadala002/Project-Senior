@@ -1,33 +1,32 @@
 {
-    "name": "wiseshare-signup",
-    "version": "1.0.0",
-    "homepage": "https://pagadala002.github.io/Project-Senior",
-    "dependencies": {
-      "react": "^18.3.1",
-      "react-dom": "^18.3.1",
-      "react-router-dom": "^6.28.0",
-      "react-scripts": "^3.0.1"
-    },
-    "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "predeploy": "npm run build",
-      "deploy": "NODE_OPTIONS=--openssl-legacy-provider gh-pages -d build"
-    },
-    "browserslist": {
-      "production": [
-        ">0.2%",
-        "not dead",
-        "not op_mini all"
-      ],
-      "development": [
-        "last 1 chrome version",
-        "last 1 firefox version",
-        "last 1 safari version"
-      ]
-    },
-    "devDependencies": {
-      "gh-pages": "^6.2.0"
-    }
+  "name": "wiseshare-signup",
+  "version": "1.0.0",
+  "homepage": "https://pagadala002.github.io/Project-Senior",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
-  
+}
