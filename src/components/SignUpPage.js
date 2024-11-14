@@ -38,7 +38,7 @@ function SignupPage() {
                 </div>
                 <div className="signup-content">
                     {/* Background Image */}
-                    // <img src="/images/interiorsign.jpg" alt="Background" className="signup-image" />
+                    <img src="/images/interiorsign.jpg" alt="Background" className="signup-image" />
                     {/* Signup Form */}
                     <div className="signup-form-container">
                         <h2>Sign up</h2>
